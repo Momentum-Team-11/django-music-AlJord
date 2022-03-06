@@ -166,3 +166,10 @@ pipenv install django-environ
 Then [follow the instructions here](https://django-environ.readthedocs.io/en/latest/#installation) AFTER the step to pip install. Remember, we are using `pipenv` to install packages, not `pip`!
 
 You will need to create a new `.env` file and put it inside your project directory, and add your secret variables to this follow (see the example in the docs at the link above). Then you can change the values for those variables in `settings.py` to use the `.env` file. Again, the documentation will show you how.
+
+
+
+
+
+models
+urls view template
