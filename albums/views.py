@@ -10,8 +10,8 @@ def album_list(request):
 
 def album_detail(request, pk):
     album = get_object_or_404(Album, pk=pk)
-    form = Album_Form()
-    return render(request, 'album_detail.html', {'album':album, 'form':form})
+
+    return render(request, 'album_detail.html', {'album':album})
 
 def add_album(request):
     if request.method == 'GET':
